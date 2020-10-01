@@ -14,6 +14,7 @@ class ThirdComponent extends React.Component {
     //         alert(this.state.context.provider.state.userName)
     //     },100)
     // }
+    
     setContextApi = (context) => {
         this.state.context = context;
         return null;
