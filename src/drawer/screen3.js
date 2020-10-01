@@ -1,0 +1,9 @@
+import React, {Component } from 'react';
+import {View,Text} from 'react-native';
+import {styles} from './../Feed/style';
+
+screen3= () =>
+<View style={styles.center}>
+    <Text style={styles.title}>Settings</Text>
+</View>
+export default screen3;
